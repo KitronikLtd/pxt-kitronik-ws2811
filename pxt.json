@@ -1,0 +1,32 @@
+{
+    "name": "pxt-kitronik-ws2811",
+    "version": "0.0.1",
+    "description": "A driver for WS2811 ICs in MakeCode",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "sendBuffer.asm",
+        "setBufferMode.asm"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    }
+}
