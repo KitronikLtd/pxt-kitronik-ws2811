@@ -1,6 +1,6 @@
 {
     "name": "pxt-kitronik-ws2811",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A driver for WS2811 ICs in MakeCode",
     "license": "MIT",
     "dependencies": {
